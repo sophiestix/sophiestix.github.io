@@ -215,7 +215,7 @@ fieldset {
 .particle-bg {
     position: relative;
     height: 100%;
-    background: url(../images/bg/bg_me.jpg);
+    background: url(../images/bg/1Kobenhavn.jpg);
     background-size: cover;
     z-index: 1;
 }
@@ -243,7 +243,7 @@ fieldset {
 }
 
 .header-text h1 {
-    color: #fafafa;
+    color: #fafafa !important;
     font-size: 80px;
     font-weight: 900;
     text-transform: capitalize;
