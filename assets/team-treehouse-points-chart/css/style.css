@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  color: #222222;
+  /*color: #222222;*/
 }
 
 .group:after {
@@ -13,31 +13,35 @@
 }
 
 body {
-  font-family: "Open Sans", Arial;
-  background: #f9f9f9;
+  font-family: 'Montserrat', sans-serif;
+  /*background: #f9f9f9;*/
 }
 body a {
   text-decoration: none;
 }
-body .team-treehouse h1, body .team-treehouse h2 {
+body .team-treehouse h1, body .team-treehouse h2, body .team-treehouse p {
   text-align: center;
 }
-body .team-treehouse h2 {
+/*body .team-treehouse h2 {
   font-weight: normal;
-}
+}*/
 
 .pieChart {
-  width: 25.5em;
+  width: 32em;
   margin: 0 auto;
-  padding-top: 1em;
+  /*padding-top: 1em;
+  padding-bottom: 1em;*/
   display: flex;
+  /*flex-wrap: wrap;*/
+  justify-content: space-around;
 }
 
 .pie {
   height: 12.5em;
   width: 12.5em;
   position: relative;
-  float: left;
+  /*float: left;*/
+  
 }
 .pie::before {
   content: "";
@@ -72,10 +76,11 @@ body .team-treehouse h2 {
 }
 
 .legend {
-  width: 15em;
+  width: 18em;
   padding-left: 1em;
   /*float: left;*/
-  display: inline-flex;
+  /*display: inline-flex;*/
+  justify-content: space-around;
 }
 .legend ul {
   list-style-type: none;
