@@ -91,37 +91,109 @@ Version      : 1.0
          * ----------------------------------------------------------------------------------------
          */
 
-        var magnifPopup = function () {
-            $('.work-popup').magnificPopup({
-                type: 'image',
-                removalDelay: 300,
-                mainClass: 'mfp-with-zoom',
-                gallery: {
-                    enabled: true
-                },
-                zoom: {
-                    enabled: true, // By default it's false, so don't forget to enable it
+        // var magnifPopup = function () {
+        //     $('.work-popup').magnificPopup({
+        //         type: 'image',
+        //         removalDelay: 300,
+        //         mainClass: 'mfp-with-zoom',
+        //         gallery: {
+        //             enabled: true
+        //         },
+        //         zoom: {
+        //             enabled: true, // By default it's false, so don't forget to enable it
 
-                    duration: 300, // duration of the effect, in milliseconds
-                    easing: 'ease-in-out', // CSS transition easing function
+        //             duration: 300, // duration of the effect, in milliseconds
+        //             easing: 'ease-in-out', // CSS transition easing function
 
-                    // The "opener" function should return the element from which popup will be zoomed in
-                    // and to which popup will be scaled down
-                    // By defailt it looks for an image tag:
-                    opener: function (openerElement) {
-                        // openerElement is the element on which popup was initialized, in this case its <a> tag
-                        // you don't need to add "opener" option if this code matches your needs, it's defailt one.
-                        return openerElement.is('img') ? openerElement : openerElement.find('img');
-                    }
-                }
-            });
-        };
-        // Call the functions 
-        magnifPopup();
+        //             // The "opener" function should return the element from which popup will be zoomed in
+        //             // and to which popup will be scaled down
+        //             // By defailt it looks for an image tag:
+        //             opener: function (openerElement) {
+        //                 // openerElement is the element on which popup was initialized, in this case its <a> tag
+        //                 // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+        //                 return openerElement.is('img') ? openerElement : openerElement.find('img');
+        //             }
+        //         }
+        //     });
+        // };
+        // // Call the functions 
+        // magnifPopup();
 
+        $('#dentistry').magnificPopup({
+          items: {
+              src: '<div data-configid="4474332/47827255" style="width:100%; height:650px;" class="issuuembed"></div><script type="text/javascript" src="http://e.issuu.com/embed.js" async="true"></script>',
+              type: 'inline'
+          },
+          closeBtnInside: true,
+          mainClass: 'mfp-with-zoom',
+          gallery: {
+            enabled: true 
+          },
+        });
 
+        $('#knitting').magnificPopup({
+          items: {
+              src: '<div data-configid="4474332/47826899" style="width:100%; height:650px;" class="issuuembed"></div><script type="text/javascript" src="http://e.issuu.com/embed.js" async="true"></script>',
+              type: 'inline'
+          },
+          closeBtnInside: true
+        });
 
+        $('#multi-cubes').magnificPopup({
+          items: {
+              src: '<div data-configid="4474332/47827285" style="width:100%; height:650px;" class="issuuembed"></div><script type="text/javascript" src="http://e.issuu.com/embed.js" async="true"></script>',
+              type: 'inline'
+          },
+          closeBtnInside: true
+        });
 
+        $('#ribbon').magnificPopup({
+          items: {
+              src: '<div data-configid="4474332/47827864" style="width:100%; height:650px;" class="issuuembed"></div><script type="text/javascript" src="http://e.issuu.com/embed.js" async="true"></script>',
+              type: 'inline'
+          },
+          closeBtnInside: true
+        });
+
+        $('#city-park').magnificPopup({
+          items: {
+              src: '<div data-configid="4474332/47827905" style="width:100%; height:650px;" class="issuuembed"></div><script type="text/javascript" src="http://e.issuu.com/embed.js" async="true"></script>',
+              type: 'inline'
+          },
+          closeBtnInside: true
+        });
+
+        $('#lyngby').magnificPopup({
+          items: {
+              src: '<div><img src="assets/images/work/LYNGBY_v2.png"></div>',
+              type: 'inline'
+          },
+          closeBtnInside: true
+        });
+
+        $('#old_portfolio').magnificPopup({
+          items: {
+              src: '<div><img src="assets/images/work/portfolio_mockup.png"></div>',
+              type: 'inline'
+          },
+          closeBtnInside: true
+        });
+
+        $('#abris').magnificPopup({
+          items: {
+              src: '<div><img src="assets/images/work/abris_thumbnail.png"></div>',
+              type: 'inline'
+          },
+          closeBtnInside: true
+        });
+
+        $('#fermo').magnificPopup({
+          items: {
+              src: '<div><img src="assets/images/work/fermo_thumbnail.png"></div>',
+              type: 'inline'
+          },
+          closeBtnInside: true
+        });
 
         /*
          * ----------------------------------------------------------------------------------------

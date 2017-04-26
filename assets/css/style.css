@@ -66,18 +66,53 @@ img {
 }
 
 a:hover {
-    color: #fff;
     text-decoration: none;
+    color: #000;
+    /*text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;*/
 }
 
-a:focus {
+/*a:focus {
     outline: none;
     text-decoration: none;
-}
+}*/
 
 p {
     line-height: 32px;
 }
+
+/* HOVER EFFECT */
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #2098D1;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, 
+.hvr-underline-from-center:focus:before, 
+.hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+/*----------------- end of HOVER EFFECT*/
 
 ul,
 li {
@@ -215,7 +250,7 @@ fieldset {
 .particle-bg {
     position: relative;
     height: 100%;
-    background: url(../images/bg/bg2.jpg);
+    background: url(../images/bg/1Kobenhavn.jpg);
     background-size: cover;
     z-index: 1;
 }
@@ -243,7 +278,7 @@ fieldset {
 }
 
 .header-text h1 {
-    color: #fafafa;
+    color: #fafafa !important;
     font-size: 80px;
     font-weight: 900;
     text-transform: capitalize;
@@ -445,6 +480,8 @@ fieldset {
 * ----------------------------------------------------------------------------------------
 */
 
+.about-me-area {}
+
 .about-image {}
 
 .about-text h2 {
@@ -455,6 +492,7 @@ fieldset {
     color: #232323;
     letter-spacing: 2px;
     font-weight: 700;
+    line-height: 1.5em;
 }
 
 .about-text p {
@@ -480,14 +518,16 @@ fieldset {
 * ----------------------------------------------------------------------------------------
 */
 
-.service-area {}
+.service-area {
+    background: #F7F7F7;
+}
 
 .single-service i {
     font-size: 40px;
     margin-bottom: 10px;
     -webkit-transition: .3s;
     transition: .3s;
-    background: #F5F5F5;
+    background: #fff;
     height: 80px;
     width: 80px;
     border-radius: 50%;
@@ -521,9 +561,9 @@ fieldset {
 * ----------------------------------------------------------------------------------------
 */
 
-.work {
+/*.work {
     background: #F7F7F7;
-}
+}*/
 
 .work-inner .mix {
     display: none;
@@ -628,6 +668,69 @@ ul.work li.active {
     transition: .3s;
 }
 
+/*
+* ----------------------------------------------------------------------------------------
+* 06.RESUME CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+.resume-area {
+
+}
+
+.cv {
+    /*padding-right: 5em;*/
+}
+
+.resume-section-title {
+    text-align: center;
+}
+
+.resume-box {
+    padding-right: 5em;
+}
+
+.resume-border {
+    border-left: 1px solid lightgray;
+    padding-left: 1em;
+    background: #f9f9f9;
+    padding-top: 0.5em;
+}
+
+
+
+/*.single-service i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    background: #F5F5F5;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    text-align: center;
+    color: #1C1C1C;
+    line-height: 80px;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+
+.single-service h2 {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 20px 0px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    color: #232323;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.single-service p {
+    color: #232323;
+}*/
+
 
 /*
 * ----------------------------------------------------------------------------------------
@@ -678,6 +781,18 @@ ul.work li.active {
 */
 
 .contact-me-area {}
+
+.contact-info-li li h4 {
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    text-transform: none;
+    color: #000;
+}
+
+.contact-info-li li span {
+    color: #000;
+}
 
 .contact-form {
     border-radius: 3px;
