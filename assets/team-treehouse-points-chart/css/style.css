@@ -33,7 +33,7 @@ body .team-treehouse h1, body .team-treehouse h2, body .team-treehouse p {
   padding-bottom: 1em;*/
   display: flex;
   /*flex-wrap: wrap;*/
-  justify-content: space-around;
+  justify-content: flex-end;
 }
 
 .pie {

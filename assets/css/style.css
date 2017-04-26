@@ -628,6 +628,69 @@ ul.work li.active {
     transition: .3s;
 }
 
+/*
+* ----------------------------------------------------------------------------------------
+* 06.RESUME CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+.resume-area {
+
+}
+
+.cv {
+    /*padding-right: 5em;*/
+}
+
+.resume-section-title {
+    text-align: center;
+}
+
+.resume-box {
+    padding-right: 5em;
+}
+
+.resume-border {
+    border-left: 1px solid lightgray;
+    padding-left: 1em;
+    background: #f9f9f9;
+    padding-top: 0.5em;
+}
+
+
+
+/*.single-service i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    background: #F5F5F5;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    text-align: center;
+    color: #1C1C1C;
+    line-height: 80px;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+
+.single-service h2 {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 20px 0px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    color: #232323;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.single-service p {
+    color: #232323;
+}*/
+
 
 /*
 * ----------------------------------------------------------------------------------------
