@@ -156,46 +156,43 @@ Version      : 1.0
 
         $('#city-park').magnificPopup({
           items: {
-              src: '<div data-configid="4474332/47827905" style="width:100%; height:700px;" class="issuuembed"></div><script type="text/javascript" src="http://e.issuu.com/embed.js" async="true"></script>',
+              src: '<div data-configid="4474332/47827905" style="width:100%; height:650px;" class="issuuembed"></div><script type="text/javascript" src="http://e.issuu.com/embed.js" async="true"></script>',
               type: 'inline'
           },
           closeBtnInside: true
         });
-
-
-        // $('#lyngby').magnificPopup({
-        //     type: 'image',
-        //     removalDelay: 300,
-        //     mainClass: 'mfp-with-zoom',
-        //     gallery: {
-        //         enabled: true
-        //     },
-        //     zoom: {
-        //         enabled: true, // By default it's false, so don't forget to enable it
-
-        //         duration: 300, // duration of the effect, in milliseconds
-        //         easing: 'ease-in-out', // CSS transition easing function
-
-        //         // The "opener" function should return the element from which popup will be zoomed in
-        //         // and to which popup will be scaled down
-        //         // By defailt it looks for an image tag:
-        //         opener: function (openerElement) {
-        //             // openerElement is the element on which popup was initialized, in this case its <a> tag
-        //             // you don't need to add "opener" option if this code matches your needs, it's defailt one.
-        //             return openerElement.is('img') ? openerElement : openerElement.find('img');
-        //         }
-        //     }
-        // });
 
         $('#lyngby').magnificPopup({
           items: {
-              src: '<div href="assets/images/work/lyngby_app1500x1000px.png"></div>',
+              src: '<div><img src="assets/images/work/LYNGBY_v2.png"></div>',
               type: 'inline'
           },
           closeBtnInside: true
         });
 
+        $('#old_portfolio').magnificPopup({
+          items: {
+              src: '<div><img src="assets/images/work/portfolio_mockup.png"></div>',
+              type: 'inline'
+          },
+          closeBtnInside: true
+        });
 
+        $('#abris').magnificPopup({
+          items: {
+              src: '<div><img src="assets/images/work/abris_thumbnail.png"></div>',
+              type: 'inline'
+          },
+          closeBtnInside: true
+        });
+
+        $('#fermo').magnificPopup({
+          items: {
+              src: '<div><img src="assets/images/work/fermo_thumbnail.png"></div>',
+              type: 'inline'
+          },
+          closeBtnInside: true
+        });
 
         /*
          * ----------------------------------------------------------------------------------------
