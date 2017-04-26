@@ -490,6 +490,7 @@ fieldset {
     color: #232323;
     letter-spacing: 2px;
     font-weight: 700;
+    line-height: 1.5em;
 }
 
 .about-text p {
