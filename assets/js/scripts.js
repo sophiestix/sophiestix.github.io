@@ -121,10 +121,11 @@ Version      : 1.0
 
         $('#dentistry').magnificPopup({
           items: {
-              src: '<div data-configid="4474332/47827255" style="width:100%; height:700px;" class="issuuembed"></div><script type="text/javascript" src="http://e.issuu.com/embed.js" async="true"></script>',
+              src: '<div data-configid="4474332/47827255" style="width:100%; height:650px;" class="issuuembed"></div><script type="text/javascript" src="http://e.issuu.com/embed.js" async="true"></script>',
               type: 'inline'
           },
           closeBtnInside: true,
+          mainClass: 'mfp-with-zoom',
           gallery: {
             enabled: true 
           },
@@ -132,7 +133,7 @@ Version      : 1.0
 
         $('#knitting').magnificPopup({
           items: {
-              src: '<div data-configid="4474332/47826899" style="width:100%; height:700px;" class="issuuembed"></div><script type="text/javascript" src="http://e.issuu.com/embed.js" async="true"></script>',
+              src: '<div data-configid="4474332/47826899" style="width:100%; height:650px;" class="issuuembed"></div><script type="text/javascript" src="http://e.issuu.com/embed.js" async="true"></script>',
               type: 'inline'
           },
           closeBtnInside: true
@@ -140,7 +141,7 @@ Version      : 1.0
 
         $('#multi-cubes').magnificPopup({
           items: {
-              src: '<div data-configid="4474332/47827285" style="width:100%; height:700px;" class="issuuembed"></div><script type="text/javascript" src="http://e.issuu.com/embed.js" async="true"></script>',
+              src: '<div data-configid="4474332/47827285" style="width:100%; height:650px;" class="issuuembed"></div><script type="text/javascript" src="http://e.issuu.com/embed.js" async="true"></script>',
               type: 'inline'
           },
           closeBtnInside: true
@@ -148,7 +149,7 @@ Version      : 1.0
 
         $('#ribbon').magnificPopup({
           items: {
-              src: '<div data-configid="4474332/47827864" style="width:100%; height:700px;" class="issuuembed"></div><script type="text/javascript" src="http://e.issuu.com/embed.js" async="true"></script>',
+              src: '<div data-configid="4474332/47827864" style="width:100%; height:650px;" class="issuuembed"></div><script type="text/javascript" src="http://e.issuu.com/embed.js" async="true"></script>',
               type: 'inline'
           },
           closeBtnInside: true
