@@ -780,6 +780,18 @@ ul.work li.active {
 
 .contact-me-area {}
 
+.contact-info-li li h4 {
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    text-transform: none;
+    color: #000;
+}
+
+.contact-info-li li span {
+    color: #000;
+}
+
 .contact-form {
     border-radius: 3px;
     margin-top: 30px;
