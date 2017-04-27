@@ -121,7 +121,7 @@ Version      : 1.0
 
         $('#dentistry').magnificPopup({
           items: {
-              src: '<div data-configid="4474332/47827255" style="width:100%; height:650px;" class="issuuembed"></div><script type="text/javascript" src="https://e.issuu.com/embed.js" async="true"></script>',
+              src: '<div data-configid="4474332/47827255" style="width:100%; height:500px;" class="issuuembed"></div><script type="text/javascript" src="https://e.issuu.com/embed.js" async="true"></script>',
               type: 'inline'
           },
           closeBtnInside: true,
@@ -133,7 +133,7 @@ Version      : 1.0
 
         $('#knitting').magnificPopup({
           items: {
-              src: '<div data-configid="4474332/47826899" style="width:100%; height:650px;" class="issuuembed"></div><script type="text/javascript" src="https://e.issuu.com/embed.js" async="true"></script>',
+              src: '<div data-configid="4474332/47826899" style="width:100%; height:500px;" class="issuuembed"></div><script type="text/javascript" src="https://e.issuu.com/embed.js" async="true"></script>',
               type: 'inline'
           },
           closeBtnInside: true
@@ -141,7 +141,7 @@ Version      : 1.0
 
         $('#multi-cubes').magnificPopup({
           items: {
-              src: '<div data-configid="4474332/47827285" style="width:100%; height:650px;" class="issuuembed"></div><script type="text/javascript" src="https://e.issuu.com/embed.js" async="true"></script>',
+              src: '<div data-configid="4474332/47827285" style="width:100%; height:500px;" class="issuuembed"></div><script type="text/javascript" src="https://e.issuu.com/embed.js" async="true"></script>',
               type: 'inline'
           },
           closeBtnInside: true
@@ -149,7 +149,7 @@ Version      : 1.0
 
         $('#ribbon').magnificPopup({
           items: {
-              src: '<div data-configid="4474332/47827864" style="width:100%; height:650px;" class="issuuembed"></div><script type="text/javascript" src="https://e.issuu.com/embed.js" async="true"></script>',
+              src: '<div data-configid="4474332/47827864" style="width:100%; height:500px;" class="issuuembed"></div><script type="text/javascript" src="https://e.issuu.com/embed.js" async="true"></script>',
               type: 'inline'
           },
           closeBtnInside: true
@@ -157,7 +157,7 @@ Version      : 1.0
 
         $('#city-park').magnificPopup({
           items: {
-              src: '<div data-configid="4474332/47827905" style="width:100%; height:650px;" class="issuuembed"></div><script type="text/javascript" src="https://e.issuu.com/embed.js" async="true"></script>',
+              src: '<div data-configid="4474332/47827905" style="width:100%; height:500px;" class="issuuembed"></div><script type="text/javascript" src="https://e.issuu.com/embed.js" async="true"></script>',
               type: 'inline'
           },
           closeBtnInside: true
@@ -165,7 +165,7 @@ Version      : 1.0
 
         $('#lyngby').magnificPopup({
           items: {
-              src: '<div><img src="assets/images/work/LYNGBY_v2.png"></div>',
+              src: '<div><img src="assets/images/work/LYNGBY_v2.png" style="display:block; width:50%; margin:auto;"></div>',
               type: 'inline'
           },
           closeBtnInside: true
@@ -173,7 +173,7 @@ Version      : 1.0
 
         $('#old_portfolio').magnificPopup({
           items: {
-              src: '<div><img src="assets/images/work/portfolio_mockup.png"></div>',
+              src: '<div><img src="assets/images/work/portfolio_mockup.png" style="display:block; width:50%; margin:auto;"></div>',
               type: 'inline'
           },
           closeBtnInside: true
@@ -181,7 +181,7 @@ Version      : 1.0
 
         $('#abris').magnificPopup({
           items: {
-              src: '<div><img src="assets/images/work/abris_thumbnail.png"></div>',
+              src: '<div><img src="assets/images/work/abris_thumbnail.png" style="display:block; width:50%; margin:auto;"></div>',
               type: 'inline'
           },
           closeBtnInside: true
@@ -189,7 +189,7 @@ Version      : 1.0
 
         $('#fermo').magnificPopup({
           items: {
-              src: '<div><img src="assets/images/work/fermo_thumbnail.png"></div>',
+              src: '<div><img src="assets/images/work/fermo_thumbnail.png" style="display:block; width:50%; margin:auto;"></div>',
               type: 'inline'
           },
           closeBtnInside: true
