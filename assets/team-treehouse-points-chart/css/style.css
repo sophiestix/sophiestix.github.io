@@ -6,6 +6,11 @@
   /*color: #222222;*/
 }
 
+/*.group {
+  display: flex;
+  flex-wrap: wrap;
+}*/
+
 .group:after {
   content: "";
   display: table;
@@ -27,13 +32,17 @@ body .team-treehouse h1, body .team-treehouse h2, body .team-treehouse p {
 }*/
 
 .pieChart {
-  width: 32em;
-  margin: 0 auto;
+  /*width: 32em;*/
+  /*margin: 0 auto;*/
   /*padding-top: 1em;
   padding-bottom: 1em;*/
   display: flex;
-  /*flex-wrap: wrap;*/
-  justify-content: flex-end;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pieChart-link {
+  padding-top: 1em;
 }
 
 .pie {
@@ -41,8 +50,8 @@ body .team-treehouse h1, body .team-treehouse h2, body .team-treehouse p {
   width: 12.5em;
   position: relative;
   /*float: left;*/
-  
 }
+
 .pie::before {
   content: "";
   display: block;
@@ -76,8 +85,9 @@ body .team-treehouse h1, body .team-treehouse h2, body .team-treehouse p {
 }
 
 .legend {
-  width: 18em;
-  padding-left: 1em;
+  width: 20em;
+  padding-left: 3em;
+  padding-top: 1em;
   /*float: left;*/
   /*display: inline-flex;*/
   justify-content: space-around;
