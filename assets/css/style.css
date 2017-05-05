@@ -151,6 +151,11 @@ fieldset {
     font-weight: 300;
 }
 
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
 
 /*
 * ----------------------------------------------------------------------------------------
@@ -502,7 +507,7 @@ fieldset {
 
 .about-text ul li {
     width: 40%;
-    float: left;
+    float: center;
     margin-bottom: 25px;
     color: #a3a3a3;
     border-bottom: 1px dotted #ccc;
@@ -520,6 +525,10 @@ fieldset {
 
 .service-area {
     background: #F7F7F7;
+}
+
+.single-service {
+    padding-top: 3em;
 }
 
 .single-service i {
